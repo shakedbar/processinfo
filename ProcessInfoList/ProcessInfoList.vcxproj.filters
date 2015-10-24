@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\RaiiWrappers">
+      <UniqueIdentifier>{0816b53c-5ae5-41e6-b6e7-92e477fa90a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RaiiWrappers">
+      <UniqueIdentifier>{9ad8fd31-c1f3-42fc-b2e1-275747f0bd8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProcessInfoFinders">
+      <UniqueIdentifier>{cf668d7f-2c57-4346-b6e1-0b81c581c986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ProcessInfoFinders">
+      <UniqueIdentifier>{0e3fbb1e-41e0-46fe-9e02-7bf32ee2d5b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{08485110-85f6-4a68-9643-14902a759762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{b6768b05-df30-4fa4-aea2-85fca08f40e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factories">
+      <UniqueIdentifier>{1b08965f-20e0-438e-93c5-ff41ddbeb5bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProcessCpuFinder.h">
+      <Filter>Header Files\ProcessInfoFinders</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessRunningUserFinder.h">
+      <Filter>Header Files\ProcessInfoFinders</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessInfoFinder.h">
+      <Filter>Header Files\ProcessInfoFinders</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessRamFinder.h">
+      <Filter>Header Files\ProcessInfoFinders</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoHandle.h">
+      <Filter>Header Files\RaiiWrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoPtu.h">
+      <Filter>Header Files\RaiiWrappers</Filter>
+    </ClInclude>
+    <ClInclude Include="WinApiException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessCpuFinderFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessPrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessFinderFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessRamFinderFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessRunningUserFinderFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoPtu.cpp">
+      <Filter>Source Files\RaiiWrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoHandle.cpp">
+      <Filter>Source Files\RaiiWrappers</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessCpuFinder.cpp">
+      <Filter>Source Files\ProcessInfoFinders</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessRunningUserFinder.cpp">
+      <Filter>Source Files\ProcessInfoFinders</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessRamFinder.cpp">
+      <Filter>Source Files\ProcessInfoFinders</Filter>
+    </ClCompile>
+    <ClCompile Include="WinApiException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
